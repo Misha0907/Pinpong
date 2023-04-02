@@ -1,0 +1,14 @@
+from pygame import *
+
+window = display.set_mode((700, 500))
+display.set_caption("Пинпонг")
+background = transform.scale(image.load("fon 1.jpg"),(700, 500))
+window.blit(background,(0, 0))
+
+img_back = "fon 1.jpg"
+#img_enemy = "ufo.png"
+#img_asteroid = "asteroid.png"
+
+
+sprite1 = transform.scale(image.load("sprite1.png"),(100,100))
+window.blit(background,(0, 0))
